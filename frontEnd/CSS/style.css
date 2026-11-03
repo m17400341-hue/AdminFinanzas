@@ -1,0 +1,119 @@
+:root{
+    --color-fondo: #00ff99;
+    --color-gasto: #ff0000;
+    --color-ingrso: #00ff2f;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(180deg,rgb(4, 116, 0), rgb(171, 255, 4),rgb(166, 237, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#f3f4e3
+}
+h2{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#f3f4e3
+}
+span{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#f3f4e3
+}
+.boton:hover{
+    background: linear-gradient(180deg,rgb(4, 116, 0), rgb(171, 255, 4),rgb(166, 237, 1));
+    
+}
+label{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#f3f4e3
+}
+.padre{
+    border: 6px solid rgb(0, 0, 0);
+    padding: 8%;
+    border-radius: 10%;
+    margin-top: 5%;
+    flex-direction: column;
+    gap: 16px;
+    background-image: url("https://wallpapers.com/images/hd/ben-10-1280-x-800-picture-d1ad0d3l0vbdtzdr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+}
+.hijo{
+    display: flex;
+    flex-direction: column;
+    border: 5xp solid black;
+    padding: 3%;
+    gap: 10px;
+    width: 460px;
+}
+.hijo2{
+    background-image: url("https://i.pinimg.com/originals/f5/03/0b/f5030bb0c809cc8c71aaa2bb987e7ae5.gif");
+    background-repeat: no-repeat;
+    background-size: 450px 200px;
+    display: flex;
+    flex-direction: column;
+    border: 5xp solid black;
+    padding: 3%;
+    gap: 20px;
+    width: 460px;
+    padding: 10px;
+}
+.sp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background: linear-gradient(180deg,rgb(4, 116, 0), rgb(171, 255, 4),rgb(166, 237, 1));
+    padding: 10px;
+    height: 50px;
+}
+.sp1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background: linear-gradient(180deg,rgb(4, 116, 0), rgb(171, 255, 4),rgb(166, 237, 1));
+    padding: 10px, 10px;
+    height: 50px;
+}
+.sp2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background-image: url("https://i.pinimg.com/originals/f5/03/0b/f5030bb0c809cc8c71aaa2bb987e7ae5.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5xp solid black;
+}
+input{
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.ingreso{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#00ff00
+}
+.gasto{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#ff0800
+}
+
