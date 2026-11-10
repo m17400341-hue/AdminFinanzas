@@ -5,19 +5,23 @@
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node Server.js"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/m17400341-hue/AdminFinanzas.git"
   },
+  "keywords": [],
   "author": "Juan Chinchilla",
   "license": "MIT",
+  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/m17400341-hue/AdminFinanzas/issues"
+  "url": "https://github.com/m17400341-hue/AdminFinanzas/issues"
   },
   "homepage": "https://github.com/m17400341-hue/AdminFinanzas#readme",
   "dependencies": {
-    "express": "^5.3.0"
+  "express": "^5.3.0",
+  "mysql2": "^3.24.6"
   }
 }
